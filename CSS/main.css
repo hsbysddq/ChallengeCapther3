@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+}
+
+.main-screen {
+  background-image: url(../ASSETS/main-screen-bg.jpg);
+  width: 100vw;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-screen nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-screen nav .menubar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-screen nav .menubar .menubar-logo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 5%;
+}
+
+.main-screen nav .menubar li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-screen nav .menubar li a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
