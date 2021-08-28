@@ -1,0 +1,64 @@
+.newsletter {
+    background-image: url(../ASSETS/newsletter-bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.newsletter .patung {
+    position: absolute;
+    width: 445.47px;
+    height: 694.41px;
+    left: 159.96px;
+    top: 49.98px;
+}
+
+.newsletter-subscribe .paragraf-pertama {
+    position: absolute;
+    left: 46.87%;
+    right: 34.99%;
+    top: 14.17%;
+    bottom: 82.94%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: -2%;
+}
+
+.newsletter-subscribe .header-pertama {
+    position: absolute;
+    height: 76.28px;
+    left: 46.66%;
+    right: 6.37%;
+    top: calc(50% - 76.28px/2 - 228.86px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.newsletter-subscribe .deskripsi {
+    position: absolute;
+    left: 46.81%;
+    right: 8.46%;
+    top: 39.45%;
+    bottom: 46.33%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.newsletter hr {
+    position: absolute;
+    width: 0px;
+    height: 1197.82px;
+    top: 141.81px;
+    opacity: 0.5;
+    border: 0.873968px solid #FFFFFF;
+    transform: rotate(-90deg);
+    margin-left: 50%;
+}

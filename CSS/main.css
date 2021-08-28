@@ -11,7 +11,7 @@ ul {
 .main-screen {
   background-image: url(../ASSETS/main-screen-bg.jpg);
   width: 100vw;
-  height: 900px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -133,7 +133,7 @@ ul {
 .pilihan-game {
   background-image: url(../ASSETS/pilihan-game-bg.jpg);
   width: 100vw;
-  height: 900px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -174,8 +174,8 @@ ul {
   background-image: url(../ASSETS/features-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 900px;
+  width: 100vw;
+  height: 100vh;
   position: relative;
   margin-top: -10px;
 }
@@ -254,6 +254,250 @@ ul {
   font-weight: 400;
   font-size: 24px;
   color: #FFB548;
+}
+
+li.circle {
+  list-style-type: circle;
+  margin-top: -35px;
+}
+
+.list-style p {
+  border-left: 1px solid white;
+  padding: 15px;
+  position: relative;
+  left: -15px;
+  top: -10px;
+  padding-bottom: -15px;
+}
+
+.game-requirements {
+  background-image: url(../ASSETS/game-requirements-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.game-requirements .paragraf-pertama {
+  position: absolute;
+  left: 39.27%;
+  right: 36.26%;
+  top: 15.12%;
+  bottom: 82%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading {
+  position: absolute;
+  height: 73.64px;
+  left: 9.02%;
+  right: 47.07%;
+  top: calc(50% - 73.64px/2 - 216.05px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-pertama {
+  position: absolute;
+  left: 9.67%;
+  right: 72.19%;
+  top: 42.02%;
+  bottom: 55.1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-pertama {
+  position: absolute;
+  left: 9.67%;
+  right: 72.47%;
+  top: 45.58%;
+  bottom: 49.74%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-kedua {
+  position: absolute;
+  left: 28.83%;
+  right: 53.03%;
+  top: 42.02%;
+  bottom: 55.1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-kedua {
+  position: absolute;
+  left: 28.83%;
+  right: 53.27%;
+  top: 45.57%;
+  bottom: 48.77%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-ketiga {
+  position: absolute;
+  left: 9.07%;
+  right: 72.8%;
+  top: 55.11%;
+  bottom: 42.01%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-ketiga {
+  position: absolute;
+  left: 9.07%;
+  right: 82.72%;
+  top: 58.76%;
+  bottom: 38.38%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.game-requirements .heading-keempat {
+  position: absolute;
+  left: 28.83%;
+  right: 53.03%;
+  top: 55.11%;
+  bottom: 42.01%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-keempat {
+  position: absolute;
+  left: 28.83%;
+  right: 57.87%;
+  top: 58.76%;
+  bottom: 36.66%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.game-requirements .heading-kelima {
+  position: absolute;
+  left: 9.07%;
+  right: 72.8%;
+  top: 69.25%;
+  bottom: 27.86%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-kelima {
+  position: absolute;
+  left: 9.07%;
+  right: 55.27%;
+  top: 72.91%;
+  bottom: 21.56%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.top-score {
+  background-image: url(../ASSETS/top-score-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.newsletter {
+  background-image: url(../ASSETS/newsletter-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.newsletter .patung {
+  position: absolute;
+  width: 445.47px;
+  height: 694.41px;
+  left: 159.96px;
+  top: 49.98px;
+}
+
+.newsletter-subscribe .paragraf-pertama {
+  position: absolute;
+  left: 46.87%;
+  right: 34.99%;
+  top: 14.17%;
+  bottom: 82.94%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-top: -2%;
+}
+
+.newsletter-subscribe .header-pertama {
+  position: absolute;
+  height: 76.28px;
+  left: 46.66%;
+  right: 6.37%;
+  top: calc(50% - 76.28px/2 - 228.86px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  color: #FFFFFF;
+}
+
+.newsletter-subscribe .deskripsi {
+  position: absolute;
+  left: 46.81%;
+  right: 8.46%;
+  top: 39.45%;
+  bottom: 46.33%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.newsletter hr {
+  position: absolute;
+  width: 0px;
+  height: 1197.82px;
+  top: 141.81px;
+  opacity: 0.5;
+  border: 0.873968px solid #FFFFFF;
+  transform: rotate(-90deg);
+  margin-left: 50%;
 }
 
 /*# sourceMappingURL=main.CSS.map */
