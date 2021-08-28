@@ -16,7 +16,6 @@ ul {
   background-size: cover;
   position: relative;
 }
-
 .main-screen nav {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -25,99 +24,73 @@ ul {
   top: 0;
   width: 100%;
 }
-
 .main-screen nav .menubar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .main-screen nav .menubar .logo {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 5%;
 }
-
 .main-screen nav .menubar .feature-home {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 10%;
 }
-
 .main-screen nav .menubar .feature {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 3%;
 }
-
 .main-screen nav .menubar .sign-up {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 36%;
 }
-
 .main-screen nav .menubar .join {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 3%;
 }
-
 .main-screen nav .menubar li {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .main-screen nav .menubar li a {
   text-decoration: none;
   color: white;
 }
-
 .main-screen .tagline {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   margin-top: 19.8%;
   margin-left: 18%;
 }
-
 .main-screen .tagline h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #FFFFFF;
   font-size: 72px;
 }
-
 .main-screen .tagline p {
   text-align: center;
   font-size: 28px;
@@ -126,7 +99,6 @@ ul {
   color: #FFFFFF;
   margin-top: 30px;
 }
-
 .main-screen .tagline button {
   margin-left: -5%;
   padding-top: 10px;
@@ -134,31 +106,69 @@ ul {
   padding-right: 60px;
   padding-left: 60px;
   margin-top: 4.3%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFB548), to(#F3AF34));
   background: linear-gradient(#FFB548, #F3AF34);
 }
-
 .main-screen .scroll-down p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   color: #FFFFFF;
   position: absolute;
-  bottom: 0;
+  bottom: 4%;
   margin-left: 47.9%;
   margin-bottom: 20px;
   margin-bottom: 20px;
 }
-
 .main-screen .scroll-down img {
   position: absolute;
   width: 30px;
   height: 12px;
   margin-left: 50%;
-  bottom: 0;
+  bottom: 4%;
 }
-/*# sourceMappingURL=main.css.map */
+
+.pilihan-game {
+  background-image: url(../ASSETS/pilihan-game-bg.jpg);
+  width: 100vw;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pilihan-game .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.pilihan-game .container .kiri {
+  width: 35%;
+}
+.pilihan-game .container .kiri .kiri-wrapper {
+  margin-top: 42.5%;
+  margin-left: 26%;
+}
+.pilihan-game .container .kiri .kiri-wrapper p {
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.pilihan-game .container .kiri .kiri-wrapper h1 {
+  font-size: 54px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.pilihan-game .container .kanan {
+  width: 60%;
+}
+.pilihan-game .container .kanan .kanan-wrapper {
+  margin-right: 1%;
+  margin-top: 30%;
+}
+
+/*# sourceMappingURL=main.CSS.map */

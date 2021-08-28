@@ -1,0 +1,46 @@
+.pilihan-game {
+    background-image: url(../ASSETS/pilihan-game-bg.jpg);
+    width: 100vw;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .kiri {
+            width: 35%;
+
+            .kiri-wrapper {
+                margin-top: 42.5%;
+                margin-left: 26%;
+
+                p {
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 400;
+                }
+
+                h1 {
+                    font-size: 54px;
+                    color: #FFFFFF;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .kanan {
+            width: 60%;
+
+            .kanan-wrapper {
+                margin-right: 1%;
+                margin-top: 30%;
+            }
+        }
+    }
+}
