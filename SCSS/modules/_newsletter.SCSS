@@ -5,60 +5,146 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: -1px;
+
+    .konten {
+        width: 100%;
+        height: 100%;
+
+        .tempat {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+
+            .kiri {
+                width: 50%;
+            }
+
+            .kanan {
+                width: 50%;
+                margin-right: 7%;
+
+                .paragraf-pertama {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                }
+
+                .header-pertama {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 400;
+                    font-size: 65px;
+                    color: #FFFFFF;
+                }
+
+                .deskripsi {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                }
+
+                .form-newsletter {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                }
+
+                textarea {
+                    width: 50%;
+                }
+
+                button {
+                    width: 30%;
+                    margin-left: 2%;
+                }
+
+                #tempat-email {
+                    background-color: rgba(225, 225, 225, 8%);
+                    border: #141414;
+                    border-radius: 6px;
+                }
+
+                ::placeholder {
+                    color: white;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-left: 23%;
+            margin-top: 1%;
+
+            p {
+                text-transform: uppercase;
+                margin-right: 5%;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                color: #FFFFFF;
+                margin-bottom: 0%;
+            }
+
+            .sosial-media {
+                display: flex;
+                flex-direction: row;
+
+                img {
+                    margin-right: 20px;
+                }
+            }
+
+        }
+
+        hr {
+            color: white;
+            margin-left: 10%;
+            margin-top: 2.6%;
+        }
+
+        .copy-right {
+            display: flex;
+            flex-direction: row;
+            margin-left: 10%;
+        }
+
+        .copy {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        .privacy {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: white;
+            margin-left: 34.2%;
+        }
+    }
 }
 
-.newsletter .patung {
-    position: absolute;
-    width: 445.47px;
-    height: 694.41px;
-    left: 159.96px;
-    top: 49.98px;
-}
 
-.newsletter-subscribe .paragraf-pertama {
-    position: absolute;
-    left: 46.87%;
-    right: 34.99%;
-    top: 14.17%;
-    bottom: 82.94%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-top: -2%;
-}
 
-.newsletter-subscribe .header-pertama {
-    position: absolute;
-    height: 76.28px;
-    left: 46.66%;
-    right: 6.37%;
-    top: calc(50% - 76.28px/2 - 228.86px);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 65px;
-    color: #FFFFFF;
-}
 
-.newsletter-subscribe .deskripsi {
-    position: absolute;
-    left: 46.81%;
-    right: 8.46%;
-    top: 39.45%;
-    bottom: 46.33%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #FFFFFF;
-}
 
-.newsletter hr {
-    position: absolute;
-    width: 0px;
-    height: 1197.82px;
-    top: 141.81px;
-    opacity: 0.5;
-    border: 0.873968px solid #FFFFFF;
-    transform: rotate(-90deg);
-    margin-left: 50%;
-}
+
+
+
+// .newsletter hr {
+//     position: absolute;
+//     width: 0px;
+//     height: 1197.82px;
+//     top: 141.81px;
+//     opacity: 0.5;
+//     border: 0.873968px solid #FFFFFF;
+//     transform: rotate(-90deg);
+//     margin-left: 50%;
+// }

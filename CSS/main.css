@@ -2,6 +2,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  height: 100%;
 }
 
 ul {
@@ -333,39 +334,76 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-.pilihan-game .container {
-  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.pilihan-game .container .kiri {
+.pilihan-game .kiri {
   width: 35%;
+  margin-bottom: 22%;
+  margin-left: 10%;
 }
-.pilihan-game .container .kiri .kiri-wrapper {
-  margin-top: 42.5%;
-  margin-left: 26%;
-}
-.pilihan-game .container .kiri .kiri-wrapper p {
-  font-size: 24px;
+.pilihan-game .kiri p {
+  font-size: 28px;
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-.pilihan-game .container .kiri .kiri-wrapper h1 {
-  font-size: 54px;
+.pilihan-game .kiri h1 {
+  font-size: 64px;
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-.pilihan-game .container .kanan {
+.pilihan-game .kanan {
   width: 60%;
-}
-.pilihan-game .container .kanan .kanan-wrapper {
-  margin-right: 1%;
-  margin-top: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
 }
 
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 55px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 45px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 34px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 26px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+}
 .featur {
   background-image: url(../ASSETS/features-bg.jpg);
   background-repeat: no-repeat;
@@ -373,99 +411,174 @@ ul {
   width: 100vw;
   height: 100vh;
   position: relative;
-  margin-top: -10px;
+  margin-top: -1px;
 }
 
-.featur .paragraf1 {
+.judul p {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   left: 55.52%;
-  right: 26.29%;
-  /* top: 26.96%; */
-  top: 31%;
-  bottom: 70.16%;
-  font-size: 24px;
+  top: 21%;
+  font-size: 28px;
   color: #FFFFFF;
 }
 
-.featur h1 {
+.judul h1 {
   position: absolute;
-  height: 73.64px;
   left: 55.25%;
-  right: 16.22%;
-  margin-top: 22%;
+  margin-top: 17%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 56px;
   color: #FFFFFF;
 }
 
-.featur .judul-pertama {
+.list1 {
   position: absolute;
-  height: 73.64px;
-  left: 55.25%;
-  right: 16.22%;
-  margin-top: 30.5%;
-  margin-left: 4%;
+  left: 55.52%;
+  top: 41%;
+}
+
+.list1 .judul-pertama {
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-pertama p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 24px;
   color: #FFB548;
 }
 
-.featur .paragraf2 {
-  position: absolute;
+.list-style .paragraf2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  left: 55.52%;
-  right: 26.29%;
-  margin-top: 33.5%;
   margin-left: 4%;
-  font-size: 14px;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
-.featur .judul-kedua {
-  position: absolute;
-  height: 73.64px;
-  left: 55.25%;
-  right: 16.22%;
-  margin-top: 40.8%;
-  margin-left: 4%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #FFB548;
+.list-style {
+  margin-left: -5.1%;
+  margin-top: -3.6%;
 }
 
-.featur .judul-ketiga {
-  position: absolute;
-  height: 73.64px;
-  left: 55.25%;
-  right: 16.22%;
-  margin-top: 46.2%;
-  margin-left: 4%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #FFB548;
+.list-style p {
+  border-left: 2px solid white;
+  padding-left: 23px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+  left: -15px;
+  top: -10px;
 }
 
 li.circle {
   list-style-type: circle;
-  margin-top: -35px;
 }
 
-.list-style p {
-  border-left: 1px solid white;
-  padding: 15px;
-  position: relative;
-  left: -15px;
-  top: -10px;
-  padding-bottom: -15px;
+.list-style2 {
+  margin-top: -7.3%;
+  margin-left: -0.2%;
 }
 
+.list1 .judul-kedua {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-kedua p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+.list-style2 p {
+  padding-bottom: 5px;
+}
+
+.list1 .judul-ketiga {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-ketiga p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .judul p {
+    font-size: 24px;
+    top: 20%;
+  }
+
+  .judul h1 {
+    position: absolute;
+    margin-top: 18%;
+    font-size: 51px;
+  }
+
+  .list1 {
+    position: absolute;
+    left: 55.52%;
+    top: 37%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .judul h1 {
+    left: 55.25%;
+    margin-top: 24%;
+  }
+
+  .list1 {
+    top: 37%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .judul h1 {
+    margin-top: 21%;
+    left: 39.5%;
+  }
+
+  .judul p {
+    left: 39.5%;
+    margin-top: 14%;
+    top: 0%;
+  }
+
+  .list1 {
+    left: 39.5%;
+  }
+
+  .list1 {
+    top: 28%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .judul p {
+    left: 30%;
+    top: 10%;
+  }
+
+  .judul h1 {
+    left: 30%;
+    margin-top: 25%;
+  }
+
+  .list1 {
+    position: absolute;
+    left: 30%;
+    top: 26%;
+  }
+}
 .game-requirements {
   background-image: url(../ASSETS/game-requirements-bg.jpg);
   background-repeat: no-repeat;
@@ -473,6 +586,7 @@ li.circle {
   width: 100vw;
   height: 100vh;
   position: relative;
+  margin-top: -1px;
 }
 
 .game-requirements .paragraf-pertama {
@@ -629,6 +743,195 @@ li.circle {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: -1px;
+}
+
+.tempat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kiri {
+  width: 50%;
+}
+.kiri .tagline {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.kiri .tagline p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.kiri .tagline h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 56px;
+}
+.kiri .tagline button {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(#FFB548, #F3AF34);
+}
+
+.kanan {
+  width: 50%;
+}
+.kanan .kartu1 {
+  margin-left: 20%;
+}
+.kanan .kartu1 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu1 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu1 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu1 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu1 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu1 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu1 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu2 {
+  margin-top: 7%;
+}
+.kanan .kartu2 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu2 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu2 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu2 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu2 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu2 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu2 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu3 {
+  margin-top: 7%;
+  margin-left: 15%;
+}
+.kanan .kartu3 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu3 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu3 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu3 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu3 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu3 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu3 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu1 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
+}
+.kanan .kartu2 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
+}
+.kanan .kartu3 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
 }
 
 .newsletter {
@@ -638,62 +941,109 @@ li.circle {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: -1px;
 }
-
-.newsletter .patung {
-  position: absolute;
-  width: 445.47px;
-  height: 694.41px;
-  left: 159.96px;
-  top: 49.98px;
+.newsletter .konten {
+  width: 100%;
+  height: 100%;
 }
-
-.newsletter-subscribe .paragraf-pertama {
-  position: absolute;
-  left: 46.87%;
-  right: 34.99%;
-  top: 14.17%;
-  bottom: 82.94%;
+.newsletter .konten .tempat {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.newsletter .konten .tempat .kiri {
+  width: 50%;
+}
+.newsletter .konten .tempat .kanan {
+  width: 50%;
+  margin-right: 7%;
+}
+.newsletter .konten .tempat .kanan .paragraf-pertama {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
   color: #FFFFFF;
-  margin-top: -2%;
 }
-
-.newsletter-subscribe .header-pertama {
-  position: absolute;
-  height: 76.28px;
-  left: 46.66%;
-  right: 6.37%;
-  top: calc(50% - 76.28px/2 - 228.86px);
+.newsletter .konten .tempat .kanan .header-pertama {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 65px;
   color: #FFFFFF;
 }
-
-.newsletter-subscribe .deskripsi {
-  position: absolute;
-  left: 46.81%;
-  right: 8.46%;
-  top: 39.45%;
-  bottom: 46.33%;
+.newsletter .konten .tempat .kanan .deskripsi {
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   color: #FFFFFF;
 }
-
-.newsletter hr {
-  position: absolute;
-  width: 0px;
-  height: 1197.82px;
-  top: 141.81px;
-  opacity: 0.5;
-  border: 0.873968px solid #FFFFFF;
-  transform: rotate(-90deg);
-  margin-left: 50%;
+.newsletter .konten .tempat .kanan .form-newsletter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.newsletter .konten .tempat .kanan textarea {
+  width: 50%;
+}
+.newsletter .konten .tempat .kanan button {
+  width: 30%;
+  margin-left: 2%;
+}
+.newsletter .konten .tempat .kanan #tempat-email {
+  background-color: rgba(225, 225, 225, 0.08);
+  border: #141414;
+  border-radius: 6px;
+}
+.newsletter .konten .tempat .kanan ::placeholder {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.newsletter .konten .footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 23%;
+  margin-top: 1%;
+}
+.newsletter .konten .footer p {
+  text-transform: uppercase;
+  margin-right: 5%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 0%;
+}
+.newsletter .konten .footer .sosial-media {
+  display: flex;
+  flex-direction: row;
+}
+.newsletter .konten .footer .sosial-media img {
+  margin-right: 20px;
+}
+.newsletter .konten hr {
+  color: white;
+  margin-left: 10%;
+  margin-top: 2.6%;
+}
+.newsletter .konten .copy-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+.newsletter .konten .copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.newsletter .konten .privacy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  margin-left: 34.2%;
 }
 
 /*# sourceMappingURL=main.CSS.map */

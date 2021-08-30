@@ -5,95 +5,175 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-    margin-top: -10px;
+    margin-top: -1px;
 }
 
-.featur .paragraf1 {
+.judul p {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     left: 55.52%;
-    right: 26.29%;
-    /* top: 26.96%; */
-    top: 31%;
-    bottom: 70.16%;
-    font-size: 24px;
+    top: 21%;
+    font-size: 28px;
     color: #FFFFFF;
 }
 
-.featur h1 {
+.judul h1 {
     position: absolute;
-    height: 73.64px;
     left: 55.25%;
-    right: 16.22%;
-    margin-top: 22%;
+    margin-top: 17%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 56px;
     color: #FFFFFF;
 }
 
-.featur .judul-pertama {
+.list1 {
     position: absolute;
-    height: 73.64px;
-    left: 55.25%;
-    right: 16.22%;
-    margin-top: 30.5%;
-    margin-left: 4%;
+    left: 55.52%;
+    top: 41%;
+}
+
+.list1 .judul-pertama {
+    font-size: 24px;
+    color: white;
+}
+
+.list1 .judul-pertama p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 24px;
     color: #FFB548;
 }
 
-.featur .paragraf2 {
-    position: absolute;
+.list-style .paragraf2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    left: 55.52%;
-    right: 26.29%;
-    margin-top: 33.5%;
     margin-left: 4%;
-    font-size: 14px;
+    font-size: 18px;
     color: #FFFFFF;
 }
 
-.featur .judul-kedua {
-    position: absolute;
-    height: 73.64px;
-    left: 55.25%;
-    right: 16.22%;
-    margin-top: 40.8%;
-    margin-left: 4%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFB548;
+.list-style {
+    margin-left: -5.1%;
+    margin-top: -3.6%;
 }
 
-.featur .judul-ketiga {
-    position: absolute;
-    height: 73.64px;
-    left: 55.25%;
-    right: 16.22%;
-    margin-top: 46.2%;
-    margin-left: 4%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFB548;
+.list-style p {
+    border-left: 2px solid white;
+    padding-left: 23px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position: relative;
+    left: -15px;
+    top: -10px;
 }
 
 li.circle {
     list-style-type: circle;
-    margin-top: -35px;
 }
 
-.list-style p {
-    border-left: 1px solid white;
-    padding: 15px;
-    position: relative;
-    left: -15px;
-    top: -10px;
-    padding-bottom: -15px;
+.list-style2 {
+    margin-top: -7.3%;
+    margin-left: -0.2%;
+}
+
+.list1 .judul-kedua {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.list1 .judul-kedua p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #FFB548;
+}
+
+.list-style2 p {
+    padding-bottom: 5px;
+}
+
+.list1 .judul-ketiga {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.list1 .judul-ketiga p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #FFB548;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .judul p {
+        font-size: 24px;
+        top: 20%;
+    }
+
+    .judul h1 {
+        position: absolute;
+        margin-top: 18%;
+        font-size: 51px;
+    }
+
+    .list1 {
+        position: absolute;
+        left: 55.52%;
+        top: 37%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .judul h1 {
+        left: 55.25%;
+        margin-top: 24%;
+    }
+
+    .list1 {
+        top: 37%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .judul h1 {
+        margin-top: 21%;
+        left: 39.5%;
+    }
+
+    .judul p {
+        left: 39.5%;
+        margin-top: 14%;
+        top: 0%;
+    }
+
+    .list1 {
+        left: 39.5%;
+    }
+
+    .list1 {
+        top: 28%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .judul p {
+        left: 30%;
+        top: 10%;
+    }
+
+    .judul h1 {
+        left: 30%;
+        margin-top: 25%;
+    }
+
+    .list1 {
+        position: absolute;
+        left: 30%;
+        top: 26%;
+    }
 }
